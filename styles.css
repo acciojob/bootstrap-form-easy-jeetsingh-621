@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+   .invalid-feedback {
+            display: none; /* Hide feedback by default */
+        }
+        input:invalid + .invalid-feedback {
+            display: block; /* Show feedback if input is invalid */
+        }
